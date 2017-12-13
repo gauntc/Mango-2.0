@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/activityDB', {useMongoClient:true});
-require('../models/Activities');
+require('../models/Activities.js');
 var Activity = mongoose.model('Activity');
 var users = require('../controllers/users_controller');
 
