@@ -8,6 +8,13 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 <body>
+	<nav  ng-controller="myController">
+        <h2 id="welcomeText">Welcome. You are Logged In as
+            <%= username %>
+        </h2>
+        <a id="logoutLink" href="/logout">logout</a>
+        <a id="editLink" href="/user">Edit User</a>
+            </nav>
   <div id='app' ng-app='app' ng-controller='mainCtrl'>
     <h1>Welcome to Mango, the TPP of people's activities</h1>
     <form id="newActivity" ng-submit="addActivity()">
