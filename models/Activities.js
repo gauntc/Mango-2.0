@@ -6,8 +6,4 @@ var ActivitySchema = new mongoose.Schema({
   time: String,
   hashed_password: String
 });
-ActivitySchema.methods.upvote = function(cb) {
-  this.upvotes += 1;
-  this.save(cb);
-};
 mongoose.model('Activity', ActivitySchema);
