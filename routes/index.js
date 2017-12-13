@@ -13,7 +13,7 @@ router.get('/', function(req, res) {
     console.log(req.session);
     if (req.session.user) {
       console.log("/ Route if user");
-        res.render('index', { title: 'Express' });
+        res.sendFile('index.html', { root: 'public' });
     }
     else {
       console.log("/ Route else user");
@@ -66,7 +66,7 @@ router.get('/signup', function(req, res) {
     if(req.session.user) {
       res.redirect('/');
     }
-    res.render('signup', {msg:req.session.msg});
+    res.sendFile('signup.html', { root: 'public' });
 });
 
 router.get('/login', function(req, res) {
@@ -74,7 +74,7 @@ router.get('/login', function(req, res) {
     if(req.session.user) {
       res.redirect('/');
     }
-    res.render('login', {msg:req.session.msg});
+    res.sendFile('login.html', { root: 'public' });
 });
 
 router.get('/logout', function(req, res) {
