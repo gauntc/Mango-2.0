@@ -7,9 +7,12 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-
 var app = express();
 
+var expressSession = require('express-session');
+var mongoStore = require('connect-mongo')({session: expressSession});
+var mongoose = require('mongoose');
+require('./models/Activities.js');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -30,7 +33,15 @@ app.use(function(req, res, next) {
     err.status = 404;
     next(err);
 });
-
+app.use(expressSession({
+  secret: 'SECRET',
+  cookie: {maxAge:2628000000},
+  resave: true,
+  saveUninitialized: true,
+  store: new mongoStore({
+      mongooseConnection:mongoose.connection
+    })
+  }));
 /// error handlers
 
 // development error handler
