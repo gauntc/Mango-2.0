@@ -1,0 +1,72 @@
+nohup: ignoring input
+[90mGET / [36m304 [90m8ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [32m200 [90m7ms - 590b[0m
+[90mGET /activities [32m200 [90m23ms - 1.43kb[0m
+[90mGET / [36m304 [90m2ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [32m200 [90m2ms - 590b[0m
+[90mGET /activities [32m200 [90m20ms - 1.43kb[0m
+(node:13665) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[90mPOST /activities [32m200 [90m22ms - 113b[0m
+[90mGET / [32m200 [90m1ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m2ms - 590b[0m
+[90mGET /activities [32m200 [90m6ms - 1.54kb[0m
+[90mGET / [32m200 [90m3ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m3ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m0ms - 590b[0m
+[90mGET /activities [32m200 [90m6ms - 1.54kb[0m
+[90mGET / [32m200 [90m0ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m2ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m1ms - 590b[0m
+[90mGET /activities [32m200 [90m4ms - 1.54kb[0m
+[90mGET / [32m200 [90m7ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m3ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m1ms - 590b[0m
+[90mGET /activities [32m200 [90m5ms - 1.54kb[0m
+[90mGET / [32m200 [90m1ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m0ms - 590b[0m
+[90mGET /activities [32m200 [90m10ms - 1.54kb[0m
+[90mGET / [32m200 [90m1ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m0ms - 590b[0m
+[90mGET /activities [32m200 [90m9ms - 1.54kb[0m
+[90mPOST /activities [32m200 [90m4ms - 76b[0m
+[90mGET / [32m200 [90m1ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m2ms - 590b[0m
+[90mGET /activities [32m200 [90m2ms - 1.62kb[0m
+[90mGET / [32m200 [90m1ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m0ms - 590b[0m
+[90mGET /activities [32m200 [90m4ms - 1.62kb[0m
+[90mGET / [32m200 [90m1ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m1ms - 590b[0m
+[90mGET /activities [32m200 [90m4ms - 1.62kb[0m
+[90mPOST /activities [32m200 [90m3ms - 81b[0m
+[90mPOST /activities [32m200 [90m2ms - 81b[0m
+[90mGET / [32m200 [90m1ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m1ms - 590b[0m
+[90mGET /activities [32m200 [90m3ms - 1.78kb[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+[90mGET /javascripts/app.js [36m304 [90m5ms[0m
+[90mGET /activities [32m200 [90m7ms - 1.78kb[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /activities [36m304 [90m2ms[0m
+[90mPOST /activities [32m200 [90m6ms - 76b[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /javascripts/app.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /activities [32m200 [90m3ms - 1.85kb[0m
+[90mGET / [32m200 [90m0ms - 1017b[0m
+[90mGET /javascripts/app.js [32m200 [90m1ms - 2.15kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m0ms - 590b[0m
+[90mGET /activities [32m200 [90m7ms - 1.85kb[0m
+[90mPOST /activities [32m200 [90m2ms - 81b[0m
