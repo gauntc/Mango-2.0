@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/activityDB', {useMongoClient:true});
 require('../models/Activities.js');
 var Activity = mongoose.model('Activity');
+var User = mongoose.model('User');
 var users = require('../controllers/users_controller');
 
 /* GET home page. */
@@ -41,7 +42,7 @@ router.post('/activities', function(req, res, next) {
 
 router.get('/activities', function(req,res) {
     if (req.session.user) {
-      Activity.find({username : req.body.username}, function(err, activities) {
+      Activity.find({username : req.session.user.username}, function(err, activities) {
         if(err) { return next(err); }
         res.json(activities);
       })
