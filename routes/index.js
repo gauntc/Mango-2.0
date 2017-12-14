@@ -3,6 +3,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/activityDB', {useMongoClient:true});
 require('../models/Activities.js');
+require('../models/user.js');
 var Activity = mongoose.model('Activity');
 var User = mongoose.model('User');
 var users = require('../controllers/users_controller');
